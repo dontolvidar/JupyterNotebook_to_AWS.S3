@@ -1,3 +1,30 @@
+🚀 Despliegue Automatizado de Notebooks: De Jupyter a AWS S3 con GitHub Actions ☁️
+Este proyecto es una herramienta diseñada para automatizar el traslado y despliegue de tus libros de Jupyter Notebook directamente a un bucket de AWS S3. Facilita la publicación y gestión de tus análisis y modelos de datos en la nube de Amazon, garantizando que estén siempre accesibles y actualizados sin intervención manual constante.
+
+La clave de esta automatización reside en el uso de GitHub Actions, orquestado mediante un archivo de flujo de trabajo .yaml. Este archivo define una serie de pasos que se ejecutan automáticamente cada vez que hay un push a la rama main2 de tu repositorio. El proceso incluye la configuración segura de credenciales de AWS y la sincronización selectiva o completa de tus archivos (como intro.html) desde tu repositorio local (./out) hacia el bucket de S3, transformando así tu repositorio de GitHub en un conducto eficiente para llevar tus Jupyter Notebooks directamente a la nube.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
